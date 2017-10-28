@@ -1,0 +1,106 @@
+{
+	"data": [{
+		"title": "Base de Datos",
+		"details": [{
+			"_id": 1,
+			"name": "Firebird/Interbase",
+			"rate": "50"
+		}, {
+				"_id": 1,
+				"name": "MongoDB",
+				"rate": "50"
+				}, {
+					"_id": 1,
+					"name": "PostgreSql",
+					"rate": "60"
+			}, {
+				"_id": 1,
+				"name": "MySql",
+				"rate": "75"
+			}, {
+				"_id": 1,
+				"name": "OpenEdge /Progress",
+				"rate": "70"
+			}
+
+		]
+	}, {
+		"title": "Programación",
+		"details": [{
+				"_id": 1,
+				"name": "PHP",
+				"rate": "80"
+			}, {
+				"_id": 1,
+				"name": "Javascript",
+				"rate": "75"
+			}, {
+				"_id": 1,
+				"name": "Java",
+				"rate": "45"
+			}, {
+				"_id": 1,
+				"name": "Python(Loading)",
+				"rate": "20"
+			}
+
+		]
+	}, {
+		"title": "Frameworks/Librerias",
+		"details": [{
+			"_id": 1,
+			"name": "Bootstrap",
+			"rate": "80"
+		}, {
+			"_id": 1,
+			"name": "PHP Simphony",
+			"rate": "75"
+		}, {
+			"_id": 1,
+			"name": "Laravel",
+			"rate": "60"
+		}, {
+			"_id": 1,
+			"name": "Angularjs",
+			"rate": "75"
+		}, {
+			"_id": 1,
+			"name": "Angular",
+			"rate": "60"
+
+		}, {
+			"_id": 1,
+			"name": "JQuery",
+			"rate": "80"
+		}]
+	}, {
+		"title": "Otros",
+		"details": [{
+				"_id": 1,
+				"name": "metodología MVC",
+				"rate": "80"
+			}, {
+				"_id": 1,
+				"name": "Apache",
+				"rate": "60"
+			}, {
+				"_id": 1,
+				"name": "AWS",
+				"rate": "45"
+			}, {
+				"_id": 1,
+				"name": "Ubuntu Server",
+				"rate": "70"
+			}, {
+				"_id": 1,
+				"name": "Windows Server",
+				"rate": "45"
+				}, {
+					"_id": 1,
+					"name": "Es6",
+					"rate": "65"
+				}
+
+		]
+	}]
+}

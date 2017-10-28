@@ -1,0 +1,49 @@
+{
+	"data": [{
+		"title": "Universitarios",
+		"details": [
+			{
+			"year" : "2011",
+			"institute_name" : "Universidad Dr. José Gregorio Hernández",
+			"title"      : "Ingeniería en Sistemas ",
+			"resume"     : "",
+			"start_date" :"",
+			"end_date"   :""
+
+			},{
+				"year" : "2006",
+				"institute_name" : "Instituto Universitario Tecnológico de Maracaibo (I.U.T.M.)",
+				"title"      : "Técnico Superior en Informática",
+				"resume"     : "",
+				"start_date" :"",
+				"end_date"   :""
+
+			}
+		]
+		}, {
+			"title": "Cursos",
+			"details": [{
+				"year" : "2007",
+				"institute_name" : "CEDIC",
+				"title"      : "Algoritmo y Programación",
+				"resume"     : "",
+				"start_date" :"",
+				"end_date"   :""
+			},{
+				"year" : "2007",
+				"institute_name" : "Universidad Fermin Toro",
+				"title"      : "Aplicaciones Webs con PHP Y MySql",
+				"resume"     : "",
+				"start_date" :"",
+				"end_date"   :""
+				},{
+					"year" : "2005",
+					"institute_name" : "CEDIC",
+					"title"      : "Programación Orientada a Objetos",
+					"resume"     : "",
+					"start_date" :"",
+					"end_date"   :""
+				}]
+
+		}]
+}

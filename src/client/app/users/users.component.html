@@ -1,0 +1,84 @@
+<header-cmp></header-cmp>
+<div class="clearfix"></div>
+<main>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="form-content">
+					<div class="form-group">
+						<input type="text" class="form-control input-underline input-lg" id="" placeholder="Buscar Contacto">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-offset-6 col-sm-6 col-md-2 ">
+				<button type="button" class="btn btn-primary" style="pull-right" (click)="add(template)"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuevo Contacto</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+
+						<table class="table table-condensed">
+							<thead>
+								<tr>
+									<th style="width: 30%" colspan="2">Nombre</th>
+									<th style="width: 70%">Descripci&oacute;n</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr  *ngFor="let user of users">
+									<td>
+										<img class="image-table" src="{{user.photo}}" />
+
+									</td>
+									<td><a (click)="edit(template , user)">{{user.name}}</a></td>
+									<td>{{user.description}}</td>
+								</tr>
+							</tbody>
+						</table>
+
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<!-- pagina anterior -->
+			</div>
+			<div class="col-md-8">
+				<!-- paginas -->
+			</div>
+			<div class="col-md-2">
+				<!-- pagina siguiente -->
+				<p>Pagina siguiente <i class="fa fa-arrow-right" aria-hidden="true"></i></p>
+			</div>
+		</div>
+	</div>
+
+
+	<template #template>
+	  <div class="modal-header">
+	    <h4 class="modal-title pull-left">{{modalRef.title}}</h4>
+	    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+	      <span aria-hidden="true">&times;</span>
+	    </button>
+	  </div>
+	  <div class="modal-body">
+			<div class="form-group">
+				<label for="photo">Url Imagen de Perfil<i class="fa fa-asterisk" aria-hidden="true"></i></label>
+				<input type="text" class="form-control"  [(ngModel)]="modalRef.user.photo" >
+			</div>
+			<div class="form-group">
+				<label for="name">Nombre<i class="fa fa-asterisk" aria-hidden="true"></i></label>
+				<input type="text" class="form-control"  [(ngModel)]="modalRef.user.name" >
+			</div>
+			<div class="form-group">
+				<label for="description">Descripcion<i class="fa fa-asterisk" aria-hidden="true"></i></label>
+				<textarea type="password" class="form-control" [(ngModel)]='modalRef.user.description'  ></textarea>
+			</div>
+	  </div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-primary" style="pull-right" (click)="modalRef.hide()"> Guardar</button>
+		</div>
+	</template>
+
+</main>

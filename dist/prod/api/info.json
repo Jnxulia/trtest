@@ -1,0 +1,15 @@
+{
+	"data": {
+    "_id" : "1",
+    "title" : "Programador Full-Stack",
+		"name": "JackNavarow",
+		"nacionality": "Venezuela",
+		"email": "javiernava@gmail.com",
+		"current_job": "E-Sign",
+		"language": "Español(Nativo), Ingles(Aprendiendo)",
+		"skipe": "JnZulia",
+		"resume": "Más de 10 años de experiencia en el ramo de la tecnología de Información, donde destacan los siguientes lenguajes: HTML, Angular, CSS , JavaScript , JQuery , AJAX , MySQL , PHP, Java, OpenEdge, entre otros.Proactivo, Creativo, Dinámico, Trabajo en Grupo.",
+		"linkedin": "JnZulia",
+		"stackoverflow": "JackNavaRow"
+	}
+}

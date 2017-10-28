@@ -1,0 +1,64 @@
+{
+	"data": [{
+			"_id" : 1,
+			"year": "2017",
+			"company": "E-Sign",
+			"webpage": "www.e-sign.cl",
+			"position": "Ingeniero de Desarrollo",
+			"resume": "Mantenimiento y mejoras de Aplicación Web,Armar arquitectura de Software,Soporte Usuario ,Migracion de Servidores,Implementación de versionamiento de software",
+			"start_date": "12/2016",
+			"end_date": "Presente"
+
+		},{
+			"_id" : 1,
+			"year": "2016",
+			"company": "Taneq Spa",
+			"webpage": "www.u-planner.com",
+			"position": "Ingeniero de Desarrollo",
+			"resume": "Mantenimiento y mejoras de Aplicación Web,Líder De Desarrollo Front-End,Optimización y mejora de código mediante angular,Desarrollo de WebServices",
+			"start_date": "12/2015",
+			"end_date": "12/2016"
+
+		},{
+			"_id" : 1,
+			"year": "2015",
+			"company": "Ingeniería Servicios y Comunicaciones",
+			"webpage": "isc.cl",
+			"position": "Ingeniero de Desarrollo",
+			"resume": "Desarrollo de aplicaciones webs responsivas,Desarrollo de WebService,Análisis y diseños de sistemas.",
+			"start_date": "09/2015",
+			"end_date": "12/2015"
+
+		},{
+			"_id" : 1,
+			"year": "2015",
+			"company": "Organización Comercial Belloso C.A.",
+			"webpage": "www.cobeca.com",
+			"position": "Analista Programador Senior",
+			"resume": "Análisis y Programación de Sistemas.Líder de Desarrollo.Líder de Proyecto.",
+			"start_date": "09/2015",
+			"end_date": "08/2015"
+
+		},{
+				"_id" : 1,
+				"year": "2010",
+				"company": "Cybernetix Servicios de Venezuela",
+				"webpage": "www.valery.com",
+				"position": "Analista I",
+				"resume": "Desarrollar y optimizar sistema administrativo VALERY 3., Valery Web, Valery SMS, Valery Sistemas de Comisiones.",
+				"start_date": "12/2007",
+				"end_date": "05/2010"
+
+			},{
+				"_id" : 1,
+				"year": "2008",
+				"company": "Idealogic C.A",
+				"webpage": " ",
+				"position": "Programador Junior",
+				"resume": "Desarrollo de aplicaciones Webs con herramientas OpenSource.",
+				"start_date": "12/2007",
+				"end_date": "06/2008"
+
+			}
+	]
+}
