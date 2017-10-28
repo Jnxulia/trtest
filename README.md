@@ -2,7 +2,7 @@
 ####1. Clone this project or Download that ZIP file
 
 ```sh
-$ git clone git@github.com:start-angular/ani-angular-2.git
+$ git clone https://github.com/Jnxulia/trtest.git
 ```
 
 ####2.  Make sure you have [npm](https://www.npmjs.org/) installed globally
@@ -27,7 +27,10 @@ $ npm install
 $ npm start
 ```
 
-### Configuration
+### Config File  
+project-directory/tools/env/ , can change the line for your api
+
+
 
 Default application server configuration
 
