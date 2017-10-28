@@ -28,14 +28,4 @@ $ npm start
 ```
 
 ### Config File  
-project-directory/tools/env/ , can change the line for your api
-
-
-
-Default application server configuration
-
-```javascript
-var PORT             = 9000;
-var LIVE_RELOAD_PORT = 9001;
-var APP_BASE         = '/';
-```
+`project-directory/tools/env/` , can change the line for your api
